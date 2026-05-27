@@ -8,6 +8,9 @@ on:
         description: 'Tag name for release (e.g. nightly)'
         required: false
         default: ''
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
